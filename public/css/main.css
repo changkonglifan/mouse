@@ -1,0 +1,63 @@
+html,body{
+	margin:0;
+	padding:0;
+}
+.game_main{
+	position: relative;
+	margin: 40px auto;
+	width: 750px;
+	height: 550px;
+}
+.game_ready{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 750px;
+	height: 550px;
+	background: url(../images/set_board.png) no-repeat;
+}
+.icon{
+	background-image: url("../images/icon.png");
+	background-repeat: no-repeat;
+}
+.btn_play{
+	display: block;
+	position: absolute;
+	right: 85px;
+	top: 205px;
+	width: 180px;
+	height: 70px;
+	background-position: -12px -693px;
+}
+.btn_help{
+	display: block;
+	position: absolute;
+	right: 85px;
+	top: 300px;
+	width: 180px;
+	height: 70px;
+	background-position: -12px -620px;
+}
+.btn_exit{
+	display: block;
+	position: absolute;
+	right: 85px;
+	top: 400px;
+	width: 180px;
+	height: 70px;
+	background-position: -14px -835px;
+}
+.btn_sound{
+	display: block;
+	position: absolute;
+	right: 30px;
+	top: 30px;
+	width: 52px;
+	height: 52px;	
+	background-position: -331px -132px;
+}
+.btn_sound.disabled{
+	background-position: -331px -80px;
+}
+
+
